@@ -10,5 +10,8 @@
   "license": "MIT",
   "dependencies": {
     "mongoose": "^4.2.9"
+  },
+  "devDependencies": {
+    "should": "^7.1.1"
   }
 }
