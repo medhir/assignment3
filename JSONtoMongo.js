@@ -7,10 +7,10 @@ var fs = require('fs'),
     mongoose = require('mongoose'), 
     Schema = mongoose.Schema, 
     Listing = require('./ListingSchema.js'), 
-    uri = require('./config.js').db.uri;
+    config = require('./config');
 
 /* Connect to your database */
-mongoose.connect(uri);
+mongoose.connect(config.db.uri);
 
 /* 
   Instantiate a mongoose model for each listing object in the JSON file, 

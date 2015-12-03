@@ -9,7 +9,7 @@ var listing = {
   address: '1545 W University Ave, Gainesville, FL 32603, United States'
 };
 
-describe('Listing Schema', function() {
+describe('Listing Schema Unit Tests', function() {
 
   before(function(done) {
     mongoose.connect(config.db.uri);
