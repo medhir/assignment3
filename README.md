@@ -21,6 +21,7 @@ To port the listing data to MongoDB, you will be doing the following:
 - Retrieve/update/delete documents through database queries
 
 Instructions:
+
 1. Clone the repository
 2. Define your schema in `ListingSchema.js`
 3. Create a `config.js` file (based on `config.example.js`) and add the uri to your MongoLab database.
