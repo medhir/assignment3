@@ -22,7 +22,7 @@ fs.readFile('listings.json', 'utf8', function(err, data) {
   var parsed = JSON.parse(data);
   var listingData = parsed.entries;
 
-  listingData.forEach(function(listing, index) {
+  listingData.forEach(function(listing) {
     new Listing({
       name: listing.name, 
       code: listing.code, 
